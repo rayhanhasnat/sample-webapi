@@ -1,0 +1,292 @@
+{
+  "Sample.dll": {
+    "D:\\Ether\\EtherProjects\\Sample\\Sample\\Model.cs": {
+      "Sample.ContactContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Sample.Contact> Sample.ContactContext::get_Contacts()": {
+          "Lines": {
+            "11": 8
+          },
+          "Branches": []
+        },
+        "System.String Sample.ContactContext::get_DbPath()": {
+          "Lines": {
+            "12": 8
+          },
+          "Branches": []
+        },
+        "System.Void Sample.ContactContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "23": 4
+          },
+          "Branches": []
+        },
+        "System.Void Sample.ContactContext::.ctor()": {
+          "Lines": {
+            "13": 4,
+            "14": 4,
+            "15": 4,
+            "16": 4,
+            "17": 4,
+            "18": 4
+          },
+          "Branches": []
+        }
+      },
+      "Sample.Contact": {
+        "System.Int32 Sample.Contact::get_Id()": {
+          "Lines": {
+            "28": 3
+          },
+          "Branches": []
+        },
+        "System.String Sample.Contact::get_Name()": {
+          "Lines": {
+            "29": 6
+          },
+          "Branches": []
+        },
+        "System.String Sample.Contact::get_Phone()": {
+          "Lines": {
+            "30": 3
+          },
+          "Branches": []
+        },
+        "System.String Sample.Contact::get_Email()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Ether\\EtherProjects\\Sample\\Sample\\Program.cs": {
+      "Sample.Program": {
+        "System.Void Sample.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Sample.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Ether\\EtherProjects\\Sample\\Sample\\Startup.cs": {
+      "Sample.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Sample.Startup::get_Configuration()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void Sample.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "27": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void Sample.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Sample.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Ether\\EtherProjects\\Sample\\Sample\\Migrations\\20210907073437_InitialCreate.cs": {
+      "Sample.Migrations.InitialCreate": {
+        "System.Void Sample.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void Sample.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Ether\\EtherProjects\\Sample\\Sample\\Migrations\\20210907073437_InitialCreate.Designer.cs": {
+      "Sample.Migrations.InitialCreate": {
+        "System.Void Sample.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Ether\\EtherProjects\\Sample\\Sample\\Migrations\\ContactContextModelSnapshot.cs": {
+      "Sample.Migrations.ContactContextModelSnapshot": {
+        "System.Void Sample.Migrations.ContactContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Ether\\EtherProjects\\Sample\\Sample\\Controllers\\ContactController.cs": {
+      "Sample.Controllers.ContactController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult Sample.Controllers.ContactController::Index()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Sample.Controllers.ContactController::GetContacts()": {
+          "Lines": {
+            "54": 2,
+            "56": 2,
+            "57": 2,
+            "58": 2,
+            "59": 2,
+            "61": 2,
+            "62": 2
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Sample.Controllers.ContactController::GetById(System.Int32)": {
+          "Lines": {
+            "66": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "73": 1,
+            "74": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Sample.Controllers.ContactController::GetByPhone(System.String)": {
+          "Lines": {
+            "78": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "85": 1,
+            "86": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
