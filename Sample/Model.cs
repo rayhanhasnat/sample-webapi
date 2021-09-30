@@ -14,7 +14,8 @@ namespace Sample
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            DbPath = $"{path}{System.IO.Path.DirectorySeparatorChar}contacts.db";
+            //DbPath = $"{path}{System.IO.Path.DirectorySeparatorChar}contacts.db";
+            DbPath = $"D:\\contacts.db";
         }
 
         // The following configures EF to create a Sqlite database file in the
