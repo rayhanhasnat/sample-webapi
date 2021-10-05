@@ -47,32 +47,39 @@ namespace Sample.Controllers
             return Ok("This is a sample project");
         }
 
-        //[Route("populate-contacts")]
-        //public IActionResult PopulateContacts()
-        //{
+        // [Route("populate-contacts")]
+        // public IActionResult PopulateContacts()
+        // {
         //    using (var db = new ContactContext())
         //    {
         //        List<Contact> contacts = new List<Contact>
         //        {
-        //            new Contact()
-        //            {
-        //                Name = "Rayhan",
-        //                Phone = "01708556674",
-        //                Email = "r.hasnat@gmail.com",
+        //             new Contact()
+        //             {
+        //                 Name = "Rayhan",
+        //                 Phone = "01708556674",
+        //                 Email = "r.hasnat@gmail.com",
 
-        //            },
-        //            new Contact()
-        //            {
-        //                Name = "Mishal",
-        //                Phone = "018286398682",
-        //                Email = "mishal@host.com"
-        //            },
-        //            new Contact()
-        //            {
-        //                Name = "Shawon",
-        //                Phone = "0267268283",
-        //                Email = "shawon@host.com"
-        //            }
+        //             },
+        //             new Contact()
+        //             {
+        //                 Name = "Mishal",
+        //                 Phone = "018286398682",
+        //                 Email = "mishal@host.com"
+        //             },
+        //             new Contact()
+        //             {
+        //                 Name = "Shawon",
+        //                 Phone = "0267268283",
+        //                 Email = "shawon@host.com"
+        //             },
+        //             new Contact()
+        //             {
+        //                 Id = 4,
+        //                 Name = "Ahsan",
+        //                 Phone = "872674628",
+        //                 Email = "ahsan@host.com"
+        //             },
         //        };
 
         //        db.AddRange(contacts);
@@ -80,7 +87,7 @@ namespace Sample.Controllers
         //    }
 
         //    return Ok("Contact populated");
-        //}
+        // }
 
         [Route("get-contacts")]
         public IActionResult GetContacts()
