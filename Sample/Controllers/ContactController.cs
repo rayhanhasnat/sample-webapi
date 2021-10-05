@@ -31,7 +31,14 @@ namespace Sample.Controllers
                 Name = "Shawon",
                 Phone = "0267268283",
                 Email = "shawon@host.com"
-            }
+            },
+            new Contact()
+            {
+                Id = 4,
+                Name = "Ahsan",
+                Phone = "872674628",
+                Email = "ahsan@host.com"
+            },
         };
 
         [Route("/")]
