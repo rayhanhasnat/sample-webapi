@@ -94,7 +94,5 @@ namespace Sample.Controllers
             Contact contact = contacts.Where(c => c.Phone == phone).First();
             return Ok(contact);
         }
-
-
     }
 }
